@@ -1,0 +1,6 @@
+{
+    "HOME_STATE": 0,
+    "ABOUT_STATE": 1,
+    "PRODUCT_STATE": 2,
+    "CONTACT_STATE": 3
+}

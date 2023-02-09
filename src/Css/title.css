@@ -1,0 +1,17 @@
+.heading{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+.underline{
+    width: 100px;
+    height: 2px;
+    background-color: var(--color-grey);
+    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 500px;
+}

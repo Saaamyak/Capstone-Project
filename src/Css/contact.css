@@ -1,0 +1,77 @@
+.contactContainer{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 100px auto;
+    gap: 50px;
+    text-align: center;
+}
+.contactMapContainer{
+    height: 70vh;
+    width: 40vw;
+    border-radius: 25px;
+}
+.contactIcons{
+    color: var(--secondary-color);
+}
+.contactLinksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.contactLinksContainer:hover, .contactLinksContainer:hover i{
+    color: var(--accent-color);
+}
+.contactLinksContainer h4, .contactLinksContainer i{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0px;
+}
+.contactDescription{
+    margin: 40px auto;
+}
+.contactsLinks{
+    display: flex;
+    width: 30vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: 20px auto;
+}
+.contactSubTitle{
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+@media screen and (max-width: 1159px){
+    .contactContainer{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    .contactMapContainer{
+        width: 80vw;
+    }
+    .contactsLinks{
+        width: 80vw;
+    }
+    .contactSubTitle{
+        font-size: 1.2em;
+    }
+    .contactLinksContainer h4, .contactLinksContainer i{
+        font-size: 0.8em;
+    }
+    .contactDescription{
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,25 @@
+.aboutContainer{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 100px auto;
+    gap: 50px;
+    text-align: center;
+}
+.aboutImage{
+    height: 80vh;
+    border-radius: 25px;
+}
+@media screen and (max-width: 1159px){
+    .aboutContainer{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    .aboutImage{
+        height: 60vh;
+    }
+}
